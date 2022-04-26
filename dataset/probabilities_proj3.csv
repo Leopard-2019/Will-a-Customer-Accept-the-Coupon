@@ -1,0 +1,17 @@
+passenger,gender,probability,Y
+Alone,Female,0.280905077,1
+Friend(s),Female,0.280905077,1
+Partner,Female,0.280905077,1
+Kid(s),Female,0.280905077,1
+Alone,Male,0.287527594,1
+Friend(s),Male,0.287527594,1
+Partner,Male,0.287527594,1
+Kid(s),Male,0.287527594,1
+Alone,Female,0.232418795,0
+Friend(s),Female,0.232418795,0
+Partner,Female,0.232418795,0
+Kid(s),Female,0.232418795,0
+Alone,Male,0.199148534,0
+Friend(s),Male,0.199148534,0
+Partner,Male,0.199148534,0
+Kid(s),Male,0.199148534,0

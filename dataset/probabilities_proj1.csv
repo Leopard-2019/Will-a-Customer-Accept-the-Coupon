@@ -1,0 +1,41 @@
+passenger,coupon,probability,Y
+Alone,Restaurant(<20),0.125394,1
+Alone,Restaurant(<20),0.071047,0
+Alone,Coffee House,0.13525,1
+Alone,Coffee House,0.17358,0
+Alone,Carry out & Take away,0.139904,1
+Alone,Carry out & Take away,0.05243,0
+Alone,Bar,0.06694,1
+Alone,Bar,0.097331,0
+Alone,Restaurant(20-50),0.058316,1
+Alone,Restaurant(20-50),0.079808,0
+Friend(s),Restaurant(<20),0.200728,1
+Friend(s),Restaurant(<20),0.049727,0
+Friend(s),Coffee House,0.222256,1
+Friend(s),Coffee House,0.150091,0
+Friend(s),Carry out & Take away,0.1698,1
+Friend(s),Carry out & Take away,0.054275,0
+Friend(s),Bar,0.057004,1
+Friend(s),Bar,0.045179,0
+Friend(s),Restaurant(20-50),0.023651,1
+Friend(s),Restaurant(20-50),0.027289,0
+Partner,Restaurant(<20),0.185116,1
+Partner,Restaurant(<20),0.054884,0
+Partner,Coffee House,0.16186,1
+Partner,Coffee House,0.12186,0
+Partner,Carry out & Take away,0.066047,1
+Partner,Carry out & Take away,0.24186,0
+Partner,Bar,0.099535,1
+Partner,Bar,0.155349,0
+Partner,Restaurant(20-50),0.082791,1
+Partner,Restaurant(20-50),0.048372,0
+Kid(s),Restaurant(<20),0.191849,1
+Kid(s),Restaurant(<20),0.073559,0
+Kid(s),Coffee House,0.099404,1
+Kid(s),Coffee House,0.106362,0
+Kid(s),Carry out & Take away,0.106362,1
+Kid(s),Carry out & Take away,0.044732,0
+Kid(s),Bar,0.042744,1
+Kid(s),Bar,0.162028,0
+Kid(s),Restaurant(20-50),0.064612,1
+Kid(s),Restaurant(20-50),0.10835,0
