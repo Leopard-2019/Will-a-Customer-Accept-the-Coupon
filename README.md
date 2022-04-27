@@ -94,6 +94,5 @@ libraries for visualization, and also conditioning probabilities.
      below. Therefore, I can nor discard some sort of bias involved.
      
      ![](images/histogramdriverswithout_withpassengers.png)
-
   
   
