@@ -75,7 +75,7 @@ libraries for visualization, and also conditioning probabilities.
   ![](images/heatmapincomecceptbypassenger.png)
   ![](images/boxplotincomenoacceptbypassenger.png)
   
-  * The catplot below indicates that the all drivers with/without passengers were much more keen to accept the coupons that expires in 24 hours
+  * The catplot below indicates that the all drivers with/without passengers were much more keen to accept the coupons (Y=1) that expires in 24 hours
     (i.e, 1 day).
 
    ![](images/catplotexpirationacceptednoaccepteddriversbypassenger.png)
