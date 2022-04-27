@@ -9,7 +9,7 @@ libraries for visualization, and also conditioning probabilities.
     [Jupiter Notebook used](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
 
 * There were some columns (age, income, expiration, Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, and Restaurant20to50) initially defined 
-  as object that were manipultate, etc in order to be able to be treated as numerical in order to facilitate the analysis. 
+  as object that were manipultated, etc in order to be able to be treated as numerical in order to facilitate the analysis. 
   
 * There were also some columns (car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
  
@@ -37,7 +37,7 @@ libraries for visualization, and also conditioning probabilities.
 
     ![](images/barplotprobabilityacceptnoacceptcouponbygender.png)
     
- * The power of using conditional probabilities indicates that within the drivers groups are some diferent, for instance:
+ * The power of using conditional probabilities indicates that within the drivers groups are some diferences, sometimes quite conspicuous for instance:
  
       * The drivers without passenger, i.e. Alone are more keen to not accept the coupons: "Coffee House", Bar, and "Restaurant(20-50)" than accept
         them.
@@ -49,12 +49,12 @@ libraries for visualization, and also conditioning probabilities.
       * The drivers with passenger "Kid(s)" are more keen to not accept the coupons:  "Coffee House", "Bar", and   Restaurant(20-50) than accept them.
 
  * As a results a generalize answer to the question " Will a Customer Accept the Coupon"  can not be made, since, again differences among the 
-   different group of drivers without/with passenger exist.  
+   different groups of drivers without/with passengers exist.  
   
     
  * The boxplot inmediately below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" who accepted the coupons (Y=1) 
-   have about the same means age  **(please see the small white circles )** through the different coupons categories, i.e. drivers without 
-   and with the aforementioned passengers in their early 30's are more willing to accept the coupons (Y=1). Conversely, the drivers with / without
+   have about the same means age  **(please see the small white circles )** through the different coupons categories, i.e. drivers without/ with
+   the aforementioned passengers in their early 30's are more willing to accept the coupons (Y=1). Conversely, the drivers with / without
    passengers who did not accept the coupon (Y=0) are a bit older as shown in the boxplot that follow the first one mentioned.
 
     ![](images/boxplotagesacceptbypassenger.png)
@@ -62,7 +62,7 @@ libraries for visualization, and also conditioning probabilities.
     ![](images/boxplotagesnoacceptbypassenger.png)
     
   *The boxplot below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" who accepted the coupon (Y=1) have about the
-  same media income, but quite lower than the rest of drivers with  passenger groups  "Kid(s)", and "Partner".Quite  similar observation is applied
+  same median income, but quite lower than the rest of drivers with  passenger groups  "Kid(s)", and "Partner".Quite  similar observation is applied
   by comparing **the mean income among those  groups who accepted the coupon as indicated by the white small circle markers posted on same 
   aforementioned boxplot**.These observations make sense on the countplot of Coupon Accepted (Y=1) by drivers without/with Passengers also shown here
   where the groups that did accept more coupon are the drivers without passenger, i.e, "Alone", and the ones with "Friend(s)". Basically,  it is 
@@ -82,10 +82,12 @@ libraries for visualization, and also conditioning probabilities.
    
    * A exercise Constructing a null and alternative hypothesis for the difference between drivers without/with passengers  who go to the Coffee 
      House more than once a month and income less than $50000 to all other drivers without/with passenger indicated that:
+     
              **The p_value=0.0218 is less than alpha=0.05$ so we did reject Ho, i.e. the null hypothesis**
-   * As a result, it is possible to conclude that the drivers without/with passenger with income less than $50000 go more often to the Coffee House
-     than drivers without/with passenger with higher income, independently if the first group have accepted or not the coupons.
+             
+            * As a result, it is possible to conclude that the drivers without/with passenger with income less than $50000 go more often to the
+              Coffee House than drivers without/with passenger with higher income, independently if they have accepted or not the coupons.
       
-   * There were other columns that were also used in this analysis, but I just wanted to highlight the major finding.
+   * There were other columns that were used in this analysis, but I just wanted to highlight the major finding.
     
   
