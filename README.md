@@ -4,14 +4,14 @@ libraries for visualization, and also conditioning probabilities.
 
 #### The programming language used is Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy ####
 
-* The complete analysis, including observations,comments so all the work done is contained in the following Jupiter Notebook:
+* The complete analysis, including observations,commentss so all the work done is contained in the following Jupiter Notebook:
 
     [Jupiter Notebook used](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
 
-* There were some columns (age, income, expiration, Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, and Restaurant20to50) defined as object that
-  were manipultate, etc in order to be able to be treated as numerical in order to facilitate the analysis. 
+* There were some columns (age, income, expiration, Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, and Restaurant20to50) initially defined 
+  as object that were manipultate, etc in order to be able to be treated as numerical in order to facilitate the analysis. 
   
-* There were also some columns ()car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
+* There were also some columns (car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
  
 *  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
    Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
@@ -36,6 +36,21 @@ libraries for visualization, and also conditioning probabilities.
  * The conditional probability that "Male" drivers  accepts coupons  is slighlty higher than the Female drivers as shown in barplot below:
 
     ![](images/barplotprobabilityacceptnoacceptcouponbygender.png)
+    
+ * The power of using conditional probabilities indicates that within the drivers groups are some diferent, for instance:
+ 
+      * The drivers without passenger, i.e. Alone are more keen to not accept the coupons: "Coffee House", Bar, and "Restaurant(20-50)" than accept
+        them.
+ 
+      * The drivers with passenger "Friend(s)" are more keen to not accept the coupons:  "Restaurant(20-50)" than accept them.
+      
+      * The drivers with passenger "Partner" are more keen to not accept the coupons:  "Carry and TakeAway" and "Bar" than accept them.
+      
+      * The drivers with passenger "Kid(s)" are more keen to not accept the coupons:  "Coffee House", "Bar", and   Restaurant(20-50) than accept them.
+
+ * As a results a generalize answer to the question " Will a Customer Accept the Coupon"  can not be made, since, again differences among the 
+   different group of drivers without/with passenger exist.  
+  
     
  * The boxplot inmediately below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" who accepted the coupons (Y=1) 
    have about the same means age  **(please see the small white circles )** through the different coupons categories, i.e. drivers without 
