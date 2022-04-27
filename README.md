@@ -14,7 +14,7 @@ libraries for visualization, and also conditioning probabilities.
 * There were also some columns (car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
  
 *  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
-   Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
+   Away"  is the highest among the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
    at the results of the conditional probabilities visualized using the barplots shown below.
    
    ![](images/barplotprobabilityacceptnoacceptcouponbyfriendpassanger.png)
