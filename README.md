@@ -88,6 +88,5 @@ libraries for visualization, and also conditioning probabilities.
             * As a result, it is possible to conclude that the drivers without/with passenger with income less than $50000 go more often to the
               Coffee House than drivers without/with passenger with higher income, independently if they have accepted or not the coupons.
       
-   * There were other columns that were used in this analysis, but I just wanted to highlight the major finding.
-    
+   * There were other columns that were used in this analysis, but I just wanted to highlight the major finding.    
   
