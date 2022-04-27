@@ -97,6 +97,6 @@ libraries for visualization, and also conditioning probabilities.
      ![](images/histogramdriverswithout_withpassengers.png) 
      
     * Next steps is to potentially included the other columns such as direction_same, direction_opp, toGEQ5min, toGEQ15min, and toGEQ25min, and 
-      education into the analysis, however, I do consider that the column used were enough to provide firm conclusions and comments.
+      education into the analysis, however, I do consider that the columns used were enough to provide firm conclusions and comments.
      
   
