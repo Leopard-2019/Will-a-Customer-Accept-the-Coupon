@@ -1,7 +1,7 @@
 # Will-a-Customer-Accept-the-Coupon #
 The major goal of this project is to predict if the drivers with/without passenger will accept more coupons than rejecting them, by using python libraries for visualization, and also conditioning probabilities.
 
-## The programming language used is Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy ##
+### The programming language used is Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy ###
 
 
 * Certainly the drivers with 'Friend(s)' as passenger are more likely to accept the coupons than not, in particular the coupons: "Coffe House",
