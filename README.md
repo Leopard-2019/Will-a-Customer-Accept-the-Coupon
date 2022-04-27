@@ -93,6 +93,5 @@ libraries for visualization, and also conditioning probabilities.
    * As a final remark, please keep in mind that were much more drivers without passenger surveyed in the data provided as show in the histogram
      below. Therefore, I can nor discard some sort of bias involved.
      
-     ![](images/histogramdriverswithout_withpassengers.png)
-  
+     ![](images/histogramdriverswithout_withpassengers.png)  
   
