@@ -90,8 +90,10 @@ libraries for visualization, and also conditioning probabilities.
               
    * There were other columns that were used in this analysis, but I just wanted to highlight the major findings.   
 
-   * As a final remark, please keep in mind that were much more drivers without passenger surveyed in the data provided as show in the histogram
-     below. Therefore, I can nor discard some sort of bias involved.
+   * As a final remark/recomendation, please keep in mind that were much more drivers without passenger surveyed in the data provided as show
+     in the histogram below. Therefore, I can nor discard some sort of bias involved. Consequently, *I do recommend to to survey more drivers
+     with passengers some concern about the aforementioned bias can be diminished.
      
-     ![](images/histogramdriverswithout_withpassengers.png)  
+     ![](images/histogramdriverswithout_withpassengers.png) 
+     
   
