@@ -5,7 +5,7 @@ The major goal of this project is to predict if the drivers with/without passeng
 
 * The complete analysis, including observations and comments are contained in the following Jupiter Note:
 
-                                [mkdnlink]: http://daringfireball.net/projects/markdown
+                               [GitHub](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/tree/main/notebook)
  
 * Certainly the drivers with 'Friend(s)' as passenger are more likely to accept the coupons: "Coffe House",
   "Restaurant (<20)", and "Carry out & Take Away" than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is 
