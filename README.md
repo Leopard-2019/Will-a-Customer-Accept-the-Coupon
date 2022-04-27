@@ -15,7 +15,7 @@ libraries for visualization, and also conditioning probabilities.
  
 *  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
    Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
-   at the results of the conditional probabilities visualized using the barplot shown below.
+   at the results of the conditional probabilities visualized using the barplots shown below.
    
    ![](images/barplotprobabilityacceptnoacceptcouponbyfriendpassanger.png)
    
@@ -47,14 +47,16 @@ libraries for visualization, and also conditioning probabilities.
     ![](images/boxplotagesnoacceptbypassenger.png)
     
   *The boxplot below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" who accepted the coupon (Y=1) have about the
-  same media income, but quite lower than the rest of drivers with  passenger groups  "Kid(s)", and "Partner" (see also the heatmap shown).Quite
-  similar observation is applied by comparing **the mean income among those  groups who accepted the coupon as indicated by the white small circle
-  markers posted on same aforementioned boxplot**.These observations make sense based on figure 1B, where the groups that did accept more coupon 
-  are the drivers without passenger, i.e, "Alone", and the ones with "Friend(s)". Basically,  it is expected that groups with lower income media 
-  will be more keen to accept coupons. it is also important to highlight that the drivers without/with   passengers who did not accept the coupon
-  (Y=0) have higher mean income as show in the next boxplot.
+  same media income, but quite lower than the rest of drivers with  passenger groups  "Kid(s)", and "Partner".Quite  similar observation is applied
+  by comparing **the mean income among those  groups who accepted the coupon as indicated by the white small circle markers posted on same 
+  aforementioned boxplot**.These observations make sense on the countplot of Coupon Accepted (Y=1) by drivers without/with Passengers also shown here
+  where the groups that did accept more coupon are the drivers without passenger, i.e, "Alone", and the ones with "Friend(s)". Basically,  it is 
+  expected that groups with lower income media will be more keen to accept coupons (see also the heatmap income by drivers without/with passengers
+  who accepted the coupon (Y=1)). it is also important to highlight that the drivers without/with passengers who did not accept the coupon (Y=0)
+  have higher mean income as shown in the other boxplot shown below.
   
   ![](images/boxplotincomeacceptbypassenger.png)
+  ![](images/countplotacceptedcouponbypassengers.png)
   ![](images/heatmapincomecceptbypassenger.png)
   ![](images/boxplotincomenoacceptbypassenger.png)
   
