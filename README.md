@@ -8,9 +8,8 @@ The major goal of this project is to predict if the drivers with/without passeng
     [Jupiter Notebook used](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
 
  
-* Certainly the drivers with 'Friend(s)' as passenger are the most likely to accept the coupons: "Coffe House",
-  "Restaurant (<20)", and "Carry out & Take Away" than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is 
-   quite evident by looking at the results of the conditional probabilities visualized using histograms shown below.
+*  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House",
+  "Restaurant (<20)", and "Carry out & Take Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking at the results of the conditional probabilities visualized using histograms shown below.
    
    ![](images/barplotprobabilityacceptnoacceptcouponbyfriendpassanger.png)
    
@@ -23,6 +22,11 @@ The major goal of this project is to predict if the drivers with/without passeng
 * The coupons most likely to be accepted for all the drivers without/with passenger, but with Kid(s) are:"Coffe House",
   "Restaurant (<20)", and "Carry out & Take Away".
   
- * The probability that drivers without/with passengers accept coupons than not is much higher by a wide margin during sunny days as shown in the figure below:
+ * The conditional probability that drivers without/with passengers accept coupons  is much higher by a wide margin during sunny days as shown in the
+   figure below:
  
     ![](images/barplotprobabilityacceptnoacceptcouponbyweather.png)
+    
+ * The conditional probability that "Male" drivers  accepts coupons  is slighlty than the Female drivers as shown infigure below:
+
+    ![](images/barplotprobabilityacceptnoacceptcouponbygender.png)
