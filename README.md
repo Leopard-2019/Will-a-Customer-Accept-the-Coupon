@@ -1,4 +1,4 @@
-# Will-a-Customer-Accept-the-Coupon #
+# Will-a-Customer-Accept-the-Coupon? #
 The major goal of this project is to predict if the drivers with/without passenger will accept more coupons than rejecting them, by using python
 libraries for visualization, and also conditioning probabilities.
 
@@ -13,8 +13,8 @@ libraries for visualization, and also conditioning probabilities.
   
 * There were also some columns (car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
  
-*  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
-   Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
+*  The conditonal probabilities that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
+   Away"  are the highest among the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
    at the results of the conditional probabilities visualized using the barplots shown below.
    
    ![](images/barplotprobabilityacceptnoacceptcouponbyfriendpassanger.png)
@@ -49,7 +49,8 @@ libraries for visualization, and also conditioning probabilities.
       * The drivers with passenger "Kid(s)" are more keen to not accept the coupons:  "Coffee House", "Bar", and   Restaurant(20-50) than accept them.
 
  * As a results a generalize answer to the question " Will a Customer Accept the Coupon"  can not be made, since, again differences among the 
-   different groups of drivers without/with passengers exist.  
+   different groups of drivers without/with passengers exist. In other words, there are some groups of drivers without/with passenger that are more
+   likely to accept certain type of coupons than not accepting them, and vice versa.
   
     
  * The boxplot inmediately below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" who accepted the coupons (Y=1) 
@@ -90,8 +91,11 @@ libraries for visualization, and also conditioning probabilities.
               
    * There were other columns that were used in this analysis, but I just wanted to highlight the major findings.   
 
-   * As a final remark, please keep in mind that were much more drivers without passenger surveyed in the data provided as show in the histogram
-     below. Therefore, I can nor discard some sort of bias involved.
+   * As a final remark and recomendation, please keep in mind that were much more drivers without passenger surveyed in the data provided as show
+     in the histogram below. Therefore, I can nor discard some sort of bias involved. Consequently, **I do recommend to to survey more drivers
+     with passengers some concern about the aforementioned bias can be diminished.**
      
-     ![](images/histogramdriverswithout_withpassengers.png)  
-  
+     ![](images/histogramdriverswithout_withpassengers.png) 
+     
+   * Next steps is to potentially included the other columns such as direction_same, direction_opp, toGEQ5min, toGEQ15min, and toGEQ25min, and
+     education into the analysis, however, I do consider that the columns used were enough to provide firm conclusions and comments.
