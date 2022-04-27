@@ -38,7 +38,7 @@ The major goal of this project is to predict if the drivers with/without passeng
 
     ![](images/boxplotagesacceptbypassenger.png)
     
-    ![](images/boxplotagesacceptbypassenger.png)
+    ![](images/boxplotagesnoacceptbypassenger.png)
     
   *The boxplot below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" have about the same media income, but quite lower
   than the rest of drivers with  passenger groups  "Kid(s)", and "Partner".Quite similar observation is applied by comparing **the mean income among those
