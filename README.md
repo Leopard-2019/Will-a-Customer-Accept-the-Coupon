@@ -83,7 +83,7 @@ libraries for visualization, and also conditioning probabilities.
    * A exercise Constructing a null and alternative hypothesis for the difference between drivers without/with passengers  who go to the Coffee 
      House more than once a month and income less than $50000 to all other drivers without/with passenger indicated that:
      
-            * The p_value=0.0218 is less than alpha=0.05$ so we did reject Ho, i.e. the null hypothesis
+            * The p_value=0.0218 is less than alpha=0.05 so we did reject Ho, i.e. the null hypothesis
              
             * As a result, it is possible to conclude that the drivers without/with passenger with income less than $50000 go more often to the
               Coffee House than drivers without/with passenger with higher income, independently if they have accepted or not the coupons.
