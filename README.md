@@ -90,10 +90,13 @@ libraries for visualization, and also conditioning probabilities.
               
    * There were other columns that were used in this analysis, but I just wanted to highlight the major findings.   
 
-   * As a final remark/recomendation, please keep in mind that were much more drivers without passenger surveyed in the data provided as show
-     in the histogram below. Therefore, I can nor discard some sort of bias involved. Consequently, *I do recommend to to survey more drivers
-     with passengers some concern about the aforementioned bias can be diminished.
+   * As a final remark and recomendation, please keep in mind that were much more drivers without passenger surveyed in the data provided as show
+     in the histogram below. Therefore, I can nor discard some sort of bias involved. Consequently, **I do recommend to to survey more drivers
+     with passengers some concern about the aforementioned bias can be diminished**.
      
      ![](images/histogramdriverswithout_withpassengers.png) 
+     
+    * Next steps is to potentially included the other columns such as direction_same, direction_opp, toGEQ5min, toGEQ15min, and toGEQ25min, and 
+      education into the analysis, however, I do consider that the column used were enough to provide firm conclusions and comments.
      
   
