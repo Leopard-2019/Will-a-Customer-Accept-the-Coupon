@@ -27,6 +27,6 @@ The major goal of this project is to predict if the drivers with/without passeng
  
     ![](images/barplotprobabilityacceptnoacceptcouponbyweather.png)
     
- * The conditional probability that "Male" drivers  accepts coupons  is slighlty than the Female drivers as shown infigure below:
+ * The conditional probability that "Male" drivers  accepts coupons  is slighlty higher than the Female drivers as shown in figure below:
 
     ![](images/barplotprobabilityacceptnoacceptcouponbygender.png)
