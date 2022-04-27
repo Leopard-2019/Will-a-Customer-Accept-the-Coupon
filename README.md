@@ -1,5 +1,6 @@
 # Will-a-Customer-Accept-the-Coupon #
-The major goal of this project is to predict if the drivers with/without passenger will accept more coupons than rejecting them, by using python libraries for visualization, and also conditioning probabilities.
+The major goal of this project is to predict if the drivers with/without passenger will accept more coupons than rejecting them, by using python
+libraries for visualization, and also conditioning probabilities.
 
 #### The programming language used is Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy ####
 
@@ -7,11 +8,14 @@ The major goal of this project is to predict if the drivers with/without passeng
 
     [Jupiter Notebook used](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
 
-* There were some columns (age, income, expiration, Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, and Restaurant20to50) defined as object that were manipultate, etc in order to be able to be treated as numerical in order to facilitate 
-  the analysis. 
+* There were some columns (age, income, expiration, Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, and Restaurant20to50) defined as object that
+  were manipultate, etc in order to be able to be treated as numerical in order to facilitate the analysis. 
+  
+* There were also some columns ()car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
  
-*  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House",
-  "Restaurant (<20)", and "Carry out & Take Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking at the results of the conditional probabilities visualized using histograms shown below.
+*  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
+   Away"  is the highest than the rest of the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
+   at the results of the conditional probabilities visualized using the barplot shown below.
    
    ![](images/barplotprobabilityacceptnoacceptcouponbyfriendpassanger.png)
    
@@ -21,15 +25,15 @@ The major goal of this project is to predict if the drivers with/without passeng
    
    ![](images/barplotprobabilityacceptnoacceptcouponbykidspassanger.png)
 
-* The coupons most likely to be accepted for all the drivers without/with passenger, but with Kid(s) are:"Coffe House",
-  "Restaurant (<20)", and "Carry out & Take Away".
+* The coupons most likely to be accepted for all the drivers without/with passenger, but with Kid(s) are:"Coffe House", "Restaurant (<20)", 
+  and "Carry out & Take Away".
   
- * The conditional probability that drivers without/with passengers accept coupons  is much higher by a wide margin during sunny days as shown in the
-   figure below:
+ * The conditional probability that drivers without/with passengers accepts coupons  is much higher by a wide margin during sunny days as shown in the
+   barplot below:
  
     ![](images/barplotprobabilityacceptnoacceptcouponbyweather.png)
     
- * The conditional probability that "Male" drivers  accepts coupons  is slighlty higher than the Female drivers as shown in figure below:
+ * The conditional probability that "Male" drivers  accepts coupons  is slighlty higher than the Female drivers as shown in barplot below:
 
     ![](images/barplotprobabilityacceptnoacceptcouponbygender.png)
     
@@ -53,5 +57,18 @@ The major goal of this project is to predict if the drivers with/without passeng
   ![](images/boxplotincomeacceptbypassenger.png)
   ![](images/heatmapincomecceptbypassenger.png)
   ![](images/boxplotincomenoacceptbypassenger.png)
+  
+  * The catplot below indicates that the all drivers with/without passengers were much more keen to accept the coupons that expires in 24 hours
+    (i.e, 1 day).
+
+   ![](images/catplotexpirationacceptednoaccepteddriversbypassenger.png)
+   
+   * A exercise Constructing a null and alternative hypothesis for the difference between drivers without/with passengers  who go to the Coffee 
+     House more than once a month and income less than $50000 to all other drivers without/with passenger indicated that:
+             **The p_value=0.0218 is less than ${\alpha}=0.05$ so we did reject ${H}_{0}$, i.e. the null hypothesis**
+   * As a result, it is possible to conclude that the drivers without/with passenger with income less than $50000 go more often to the Coffee House
+     than drivers without/with passenger with higher income, independently if the first group have accepted or not the coupons.
+      
+   * There were other columns that were also used in this analysis, but I just wanted to highlight the major finding.
     
   
