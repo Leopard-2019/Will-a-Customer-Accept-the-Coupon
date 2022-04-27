@@ -13,8 +13,8 @@ libraries for visualization, and also conditioning probabilities.
   
 * There were also some columns (car, Bar,CoffeHouse, CarryAway,RestaurantlLessthan20, restaurant20To50) that present missing values.
  
-*  The conditonal probability that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
-   Away"  is the highest among the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
+*  The conditonal probabilities that drivers with 'Friend(s)' as passenger accept the coupons: "Coffe House", "Restaurant (<20)", and "Carry out & Take
+   Away"  are the highest among the drivers without/with passenger, i.e, 'Alone', "Partner", and "Kid(s)". This is quite evident by looking
    at the results of the conditional probabilities visualized using the barplots shown below.
    
    ![](images/barplotprobabilityacceptnoacceptcouponbyfriendpassanger.png)
@@ -49,7 +49,8 @@ libraries for visualization, and also conditioning probabilities.
       * The drivers with passenger "Kid(s)" are more keen to not accept the coupons:  "Coffee House", "Bar", and   Restaurant(20-50) than accept them.
 
  * As a results a generalize answer to the question " Will a Customer Accept the Coupon"  can not be made, since, again differences among the 
-   different groups of drivers without/with passengers exist.  
+   different groups of drivers without/with passengers exist. In other words, there are some groups of drivers without/with passenger that are more
+   likely to accept certain type of coupons than not accepting them, and vice versa.
   
     
  * The boxplot inmediately below indicates that the drivers without passsenger, i.e, "Alone", and with "Friends" who accepted the coupons (Y=1) 
