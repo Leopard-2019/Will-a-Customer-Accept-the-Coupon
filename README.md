@@ -5,7 +5,7 @@ The major goal of this project is to predict if the drivers with/without passeng
 
 * The complete analysis, including observations and comments are contained in the following Jupiter Note:
 
-    [](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
+    [Jupiter Notebook used](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
 
  
 * Certainly the drivers with 'Friend(s)' as passenger are more likely to accept the coupons: "Coffe House",
