@@ -3,7 +3,7 @@ The major goal of this project is to predict if the drivers with/without passeng
 
 ### The programming language used is Python, and the libraries used were: Pandas, Seaborn, Matplotlib, and numpy ###
 
-* The complete analysis, including observations and comments are contained in the following Jupiter Note:
+* The complete analysis, including observations,comments so all the work done is contained in the following Jupiter Note:
 
     [Jupiter Notebook used](https://github.com/Leopard-2019/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/prompt_assig5_1.ipynb)
 
