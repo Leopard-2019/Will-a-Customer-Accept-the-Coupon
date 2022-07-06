@@ -93,7 +93,7 @@ libraries for visualization, and also conditioning probabilities.
 
    * As a final remark and recomendation, please keep in mind that were much more drivers without passenger surveyed in the data provided as show
      in the histogram below. Therefore, I can nor discard some sort of bias involved. Consequently, **I do recommend to to survey more drivers
-     with passengers some concern about the aforementioned bias can be diminished.**
+     with passengers, so some concern about the aforementioned bias can be diminished.**
      
      ![](images/histogramdriverswithout_withpassengers.png) 
      
